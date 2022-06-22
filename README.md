@@ -58,6 +58,7 @@ services:
     depends_on:
       - kafka
     environment:
+      - ALLOW_PLAINTEXT_LISTENER=yes
       - SOURCE=mysourcekafka.example.com:9092
       - DESTINATION=kafka:9092
       - TOPICS=Topic1,Topic2

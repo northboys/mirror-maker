@@ -54,7 +54,7 @@ services:
     depends_on:
       - zookeeper
   mirrormaker:
-    image: 'izalul/mirror-maker:2'
+    image: 'izalul/mirror-maker:2.1'
     depends_on:
       - kafka
     environment:

@@ -32,12 +32,12 @@ config.storage.replication.factor=1
 # emit.heartbeats.interval.seconds = 5
 
 # source cluster over writes
-source.message.max.bytes = 15728640
-source.max.request.size = 15728640
-source.buffer.memory = 524288000
+A.message.max.bytes = 15728640
+A.max.request.size = 15728640
+A.buffer.memory = 524288000
 
 
 # destination cluster over writes
-destination.message.max.bytes = 15728640
-destination.max.request.size = 15728640
-destination.buffer.memory = 524288000
+B.message.max.bytes = 15728640
+B.max.request.size = 15728640
+B.buffer.memory = 524288000

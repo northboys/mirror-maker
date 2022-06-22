@@ -54,7 +54,7 @@ services:
     depends_on:
       - zookeeper
   mirrormaker:
-    image: 'wpietri/mirror-maker:2'
+    image: 'izalul/mirror-maker:2'
     depends_on:
       - kafka
     environment:
@@ -70,6 +70,8 @@ volumes:
     driver: local
 
 ```
+### Custom
+add custom config, please edit on mm2.template and build docker image
 
 ### License
 
